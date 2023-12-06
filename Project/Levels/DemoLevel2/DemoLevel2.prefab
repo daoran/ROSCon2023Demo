@@ -1092,10 +1092,8 @@
                     "Id": 8830296904837885241,
                     "Controller": {
                         "Configuration": {
-                            "Orthographic": true,
                             "Orthographic Half Width": 20.0,
-                            "Field of View": 60.0,
-                            "MakeActiveViewOnActivation": false
+                            "Field of View": 60.0
                         }
                     }
                 },
@@ -1151,14 +1149,14 @@
                     "Parent Entity": "Entity_[1176639161715]",
                     "Transform Data": {
                         "Translate": [
-                            -22.263647079467773,
-                            8.773752212524414,
-                            68.53779602050781
+                            -50.0,
+                            45.0,
+                            70.0
                         ],
                         "Rotate": [
-                            -85.34874725341797,
-                            6.853060722351074,
-                            -0.5562095642089844
+                            -90.0,
+                            0.0,
+                            0.0
                         ]
                     }
                 }
@@ -5404,7 +5402,8 @@
                     "Id": 16880285896855930892,
                     "Controller": {
                         "Configuration": {
-                            "Field of View": 60.0
+                            "Field of View": 60.0,
+                            "MakeActiveViewOnActivation": false
                         }
                     }
                 },
@@ -6162,6 +6161,1161 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176570398462317]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176570398462317]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176570398462317]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176570398462317]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176570398462317]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176570398462317]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176570398462317]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176325585326445]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176325585326445]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176325585326445]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176325585326445]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176325585326445]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176325585326445]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[176325585326445]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[172958330966381]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[172958330966381]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[172958330966381]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[172958330966381]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[172958330966381]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[172958330966381]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[172958330966381]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[160558760382829]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[160558760382829]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[160558760382829]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[160558760382829]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[160558760382829]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[160558760382829]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[160558760382829]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148210729406829]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[148129125028205]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137048109404525]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[138379549266285]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137035224502637]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137022339600749]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[137009454698861]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136996569796973]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136983684895085]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136970799993197]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[137060994306413]/Instances/Instance_[136957915091309]/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
+                    "value": 1.0
                 }
             ]
         },

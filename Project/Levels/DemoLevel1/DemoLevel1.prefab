@@ -30,7 +30,8 @@
                     "Entity_[157997884966234]",
                     "Entity_[1842731393655449]",
                     "Instance_[447351292908083]/ContainerEntity",
-                    "Instance_[46481451049499]/ContainerEntity"
+                    "Instance_[46481451049499]/ContainerEntity",
+                    "Entity_[103349654700983]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -73,6 +74,92 @@
         }
     },
     "Entities": {
+        "Entity_[103349654700983]": {
+            "Id": "Entity_[103349654700983]",
+            "Name": "Light1",
+            "Components": {
+                "AZ::Render::EditorAreaLightComponent": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 3264954466354754954,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Intensity": 1000.0,
+                            "AttenuationRadiusMode": 0,
+                            "AttenuationRadius": 30.0,
+                            "Enable Shadow": true
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9585428415652195052
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4365624486835233375
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14080048029532508911,
+                    "Child Entity Order": [
+                        "Entity_[2287581042885559]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15030672449377622636
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11688785865276300568
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10765465219865802472
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3730467091428803394
+                },
+                "EditorSphereShapeComponent": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 2482049726593501672,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.05000000074505806
+                        }
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6412197871613872244
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15271565924237363560,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -22.11742401123047,
+                            12.033742904663086,
+                            0.11101317405700684
+                        ],
+                        "Rotate": [
+                            180.0,
+                            -89.20885467529297,
+                            180.0
+                        ]
+                    }
+                }
+            }
+        },
         "Entity_[1035527589276214]": {
             "Id": "Entity_[1035527589276214]",
             "Name": "BoxDespawner",
@@ -1252,6 +1339,105 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 4211710458139155881,
                     "Parent Entity": "Entity_[1146574390643]"
+                }
+            }
+        },
+        "Entity_[2287581042885559]": {
+            "Id": "Entity_[2287581042885559]",
+            "Name": "Flasher",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13776780403637821810
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10993766487704571678
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8619545272357317789
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14448228266301579567
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15680738558208885302
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2166018058150341858
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2231567754034974700
+                },
+                "EditorScriptCanvasComponent": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 959655972862534143,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{D5404B5C-7821-563D-8820-DAA7ECA168CD}",
+                            "path": "Assets/activate.scriptcanvas"
+                        },
+                        "sourceName": "activate.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{D5404B5C-7821-563D-8820-DAA7ECA168CD}",
+                                "path": "Assets/activate.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": ""
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{3C52C453-1B2D-4585-B612-DA230738A391}"
+                                    },
+                                    "VariableName": "LightEntityId",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "Entity_[103349654700983]"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{3C52C453-1B2D-4585-B612-DA230738A391}"
+                                    },
+                                    "VariableName": "LightEntityId",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4068832152587498492
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10225395447031691064,
+                    "Parent Entity": "Entity_[103349654700983]"
                 }
             }
         },
