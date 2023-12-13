@@ -669,30 +669,33 @@
             "Id": "Entity_[33370629259023]",
             "Name": "Belt_physics",
             "Components": {
-                "ConveyorBeltComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 214906227116801806,
-                    "m_template": {
-                        "$type": "ConveyorBeltComponent",
-                        "Configuration": {
-                            "BeltEntityId": "Entity_[33362039324431]",
-                            "Speed": 0.800000011920929,
-                            "BeltWidth": 0.6000000238418579,
-                            "SegmentSize": 0.09000000357627869,
-                            "TextureScale": -0.8519999980926514,
-                            "MaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1F0D2FB2-DA15-5F7F-B6D4-9DD98818C1C2}",
-                                    "subId": 1
-                                },
-                                "assetHint": "assets/belt_material_roscon2023.physicsmaterial"
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6864514547464178004,
+                    "DisabledComponents": {
+                        "ConveyorBeltComponent": {
+                            "$type": "GenericComponentWrapper",
+                            "Id": 214906227116801806,
+                            "m_template": {
+                                "$type": "ConveyorBeltComponent",
+                                "Configuration": {
+                                    "BeltEntityId": "Entity_[33362039324431]",
+                                    "Speed": 0.800000011920929,
+                                    "BeltWidth": 0.6000000238418579,
+                                    "SegmentSize": 0.09000000357627869,
+                                    "TextureScale": -0.8519999980926514,
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{1F0D2FB2-DA15-5F7F-B6D4-9DD98818C1C2}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/belt_material_roscon2023.physicsmaterial"
+                                    },
+                                    "Floor": ""
+                                }
                             }
                         }
                     }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 6864514547464178004
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
@@ -1263,7 +1266,8 @@
                         "Entity_[33400694030095]",
                         "Entity_[33353449389839]",
                         "Entity_[33370629259023]",
-                        "Entity_[285494584193745]"
+                        "Entity_[285494584193745]",
+                        "Entity_[74714392955537]"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -1399,6 +1403,105 @@
                             -0.5,
                             0.0,
                             0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[74714392955537]": {
+            "Id": "Entity_[74714392955537]",
+            "Name": "ForceBasedPushingPoc",
+            "Components": {
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 2869317866448831735,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                1.0,
+                                2.5,
+                                0.10000000149011612
+                            ]
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7969776068726661587
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15872835721373089750
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3415066952175656224
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3477330737708496088
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11084424682060158521
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9548115992185736586
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4130743230655376666
+                },
+                "EditorStaticRigidBodyComponent": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11203290320131928676
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 684923268059284870
+                },
+                "ROS2ContactSensorComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 18312921316745208654,
+                    "m_template": {
+                        "$type": "ROS2ContactSensorComponent",
+                        "SensorConfiguration": {
+                            "Publishers": {
+                                "gazebo_msgs::msg::ContactsState": {
+                                    "Type": "gazebo_msgs::msg::ContactsState",
+                                    "Topic": "contact_sensor"
+                                }
+                            }
+                        }
+                    }
+                },
+                "ROS2FrameComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 2589564146273904034,
+                    "m_template": {
+                        "$type": "ROS2FrameComponent"
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18328458913338199751,
+                    "Parent Entity": "Entity_[33387809128207]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            -0.7000007629394531,
+                            0.41278547048568726
                         ]
                     }
                 }
